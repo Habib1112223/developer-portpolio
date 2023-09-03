@@ -214,8 +214,12 @@ footer {
 .footer-colum {
       width: 50%;
 }
-.socal-links a{
-      margin-left: 24px;
+.socal-links{
+      /* margin-left: 24px; */
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
 }
 
 .contract input[type="text"], input[type="email"],
